@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Homemade Apple",cursive;
+}
+body{
+    background-color:burlywood;
+    color:#B52114; 
+    text-align: center;
+    font-family: Homemade Apple;
+    margin-top: 20%;
+    
+}
+.homemade-apple-regular {
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }  
+h2{
+    color:#004515;
+    font-size: 40px;
+    font-weight: bold;
+    transform: rotate(-180deg);
+    transition-duration: 7s;
+}
+h2:hover{
+transform: none;
+}
+h3{
+    color: #004515;
+    font-size: 30px;
+    font-weight: bold;
+    transform:scale(50%);
+    transition-duration: 5s;
+}
+
+h3:hover{
+    transform: none;
+}
+a{
+    text-decoration: none;
+    color:#E0581E;
+    font-size: 30px;
+    
+}
+.container span{
+font-size: 40px;
+font-family: "Homemade Apple", cursive;
+animation: drop 0.5s linear forwards;
+}
+.container span:nth-child(2){
+    animation-delay: 0.2s;
+}
+.container span:nth-child(3){
+    animation-delay: 0.4s;
+}
+.container span:nth-child(4){
+    animation-delay: 0.6s;
+}
+.container span:nth-child(5){
+    animation-delay: 0.8s;
+}
+.container span:nth-child(6){
+    animation-delay: 1s;
+}
+.container span:nth-child(7){
+    animation-delay: 1.2s;
+}
+.container span:nth-child(8){
+    animation-delay: 1.4s;
+}
+.container span:nth-child(9){
+    animation-delay: 1.6s;
+}
+.container span:nth-child(10){
+    animation-delay: 1.8s;
+}
+.container span:nth-child(11){
+    animation-delay: 2s;
+}
+.container span:nth-child(12){
+    animation-delay: 2.2s;
+}
+.container span:nth-child(13){
+    animation-delay: 2.4s;
+}
+.container span:nth-child(14){
+    animation-delay: 2.6s;
+}.container span:nth-child(15){
+    animation-delay: 2.8s;
+}.container span:nth-child(16){
+    animation-delay: 3s;
+}.container span:nth-child(17){
+    animation-delay: 3.2s;
+}
+.container span:nth-child(18){
+    animation-delay: 3.4s;
+}
+
+
+@keyframes drop{
+0%{
+    transform: translateY(-200px) scaleY(0.8);
+}
+5%{
+    opacity: 0.6;
+}
+50%{
+    transform: translateY(0px) scaleY(1);
+    opacity: 1;
+}
+65%{
+    transform: translateY(-15px) scaleY(0.8);
+}
+75%{
+    transform: translateY(-20px) scaleY(0.8);
+}
+100%{
+    transform: translateY(0px) scaleY(1);
+    opacity: 1;
+}
+}
